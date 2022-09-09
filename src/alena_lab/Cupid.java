@@ -12,4 +12,16 @@ public class Cupid {
         this.superPower2 = superPower2;
         this.superPower3 = superPower3;
     }
+
+    public void useSuperpower1(){
+        System.out.println("Cupid " + name + " can " + superPower1);
+    }
+
+    public void useSuperpower2(){
+        System.out.println("Cupid " + name + " can " + superPower2);
+    }
+
+    public void useSuperpower3(){
+        System.out.println("Cupid " + name + " can " + superPower3);
+    }
 }
