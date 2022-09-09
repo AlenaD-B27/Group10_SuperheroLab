@@ -24,4 +24,14 @@ public class Cupid {
     public void useSuperpower3(){
         System.out.println("Cupid " + name + " can " + superPower3);
     }
+
+    @Override
+    public String toString() {
+        return "Cupid{" +
+                "name='" + name + '\'' +
+                ", superPower1='" + superPower1 + '\'' +
+                ", superPower2='" + superPower2 + '\'' +
+                ", superPower3='" + superPower3 + '\'' +
+                '}';
+    }
 }
