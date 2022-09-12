@@ -28,5 +28,10 @@ public class WomanPower {
     public final String useSuperPower3(){
         return name + " " + superPower3 +" with HTML+CSS+JavaScript ";
     }
-
+    @Override
+    public String toString() {
+        return  name + " has these super powers: " +"\n1)"+
+                superPower1 + "\n2)" +superPower2 +"\n3)"+ superPower3 +
+                "\n" + useSuperPower1() + "\n" +useSuperPower2() + "\n" + useSuperPower3();
+    }
 }
