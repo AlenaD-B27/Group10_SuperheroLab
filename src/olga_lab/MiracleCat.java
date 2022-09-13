@@ -15,15 +15,15 @@ public class MiracleCat {
     }
 
   public void useSuperPower1(){
-      System.out.println("Cat" + name + "can" + superPower1);
+      System.out.println("Cat " + name + " can " + superPower1);
   }
 
   public void useSuperPower2(){
-      System.out.println("Cat" + name + "can" + superPower2);
+      System.out.println("Cat " + name + " can " + superPower2);
   }
 
   public void useSuperPower3(){
-      System.out.println("Cat" + name + "can" + superPower3);
+      System.out.println("Cat " + name + " can " + superPower3);
   }
 
     @Override
