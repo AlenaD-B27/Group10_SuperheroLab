@@ -1,8 +1,6 @@
 package mariia_lab;
 
-import java.security.SecureRandom;
-
-public class WomanPower {
+public class ZooMagic {
     String name;
     String superPower1;
     String superPower2;
@@ -13,7 +11,7 @@ public class WomanPower {
          this.superPower2=superPower2;
          this.superPower3=superPower3;
      }*/
-    public WomanPower(String name){
+    public ZooMagic(String name){
         this.name = name;
         superPower1= " can do 3 things simultaneously";
         superPower2=" can coding";
@@ -23,7 +21,7 @@ public class WomanPower {
         System.out.println(name + " like a Caesar " + superPower1);
     }
     public void useSuperPower2(){
-        System.out.println(name + " " + superPower2 + " all the night");
+        System.out.println(name + " " + superPower2 + " all  night");
     }
     public void useSuperPower3(){
         System.out.println(name + " " + superPower3 +" with HTML+CSS+JavaScript ");
