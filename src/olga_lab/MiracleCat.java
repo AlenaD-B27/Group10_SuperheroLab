@@ -26,4 +26,13 @@ public class MiracleCat {
       System.out.println("Cat" + name + "can jump enormous distances");
   }
 
+    @Override
+    public String toString() {
+        return "MiracleCat{" +
+                "name='" + name + '\'' +
+                ", superPower1='" + superPower1 + '\'' +
+                ", superPower2='" + superPower2 + '\'' +
+                ", superPower3='" + superPower3 + '\'' +
+                '}';
+    }
 }
