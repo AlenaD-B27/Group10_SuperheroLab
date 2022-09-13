@@ -13,4 +13,17 @@ public class MiracleCat {
         this.superPower2 = superPower2;
         this.superPower3 = superPower3;
     }
+
+  public void useSuperPower1(){
+      System.out.println("Cat" + name + "can relieve stress right away");
+  }
+
+  public void useSuperPower2(){
+      System.out.println("Cat" + name + "can bring luck");
+  }
+
+  public void useSuperPower3(){
+      System.out.println("Cat" + name + "can jump enormous distances");
+  }
+
 }
