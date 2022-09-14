@@ -5,7 +5,8 @@ public class TASK {
 3. Checkout to origin develop branch, it will create your local develop one;
 4. Create your branch from local develop, name of the branch should be your name. Ex: my branch will be "alena";
 5. Create the package name_lab (use your name);
-6. Create the class (custom the name, Ex: "WonderWoman", "Vampire", "MagicHamster", anything you wish in YOUR package name_lab. COMMIT
+6. Create the class (custom the name, Ex: "WonderWoman", "Vampire",
+    "MagicHamster", anything you wish in YOUR package name_lab. COMMIT
 6. Create variables: String name, String superPower1, String superPower2 and String superPower3. COMMIT
 7. Initialize variables. COMMIT
 8. Create methods useSuperPower1(), useSuperPower2(), useSuperPower3().
