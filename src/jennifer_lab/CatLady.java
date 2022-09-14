@@ -19,15 +19,15 @@ public class CatLady {
     }
 
     public void useSuperPower1() {
-        System.out.println("Cat Lady " + name + "can " + superPower1);
+        System.out.println("Cat Lady " + name + " can " + superPower1 + ".");
     }
 
     public void useSuperPower2() {
-        System.out.println("Cat Lady " + name + "can " + superPower2);
+        System.out.println("Cat Lady " + name + " can " + superPower2 + ".");
     }
 
     public void useSuperPower3() {
-        System.out.println("Cat Lady " + name + "can " + superPower3);
+        System.out.println("Cat Lady " + name + " can " + superPower3 + ".");
 
 
     }
